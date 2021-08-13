@@ -1,7 +1,11 @@
-import { defineComponent } from 'vue'
+import { defineComponent, onMounted } from 'vue'
+import * as d3 from 'd3'
 
 const App = defineComponent({
-  render: () => 'Hello EXCHARTS'
+  setup() {
+    onMounted(() => {})
+  },
+  render: () => <div>hello</div>
 })
 
 export { App }
