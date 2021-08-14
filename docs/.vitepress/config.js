@@ -1,3 +1,4 @@
+const echartsLike = 'echarts-like'
 module.exports = {
   title: 'EXCharts',
   themeConfig: {
@@ -13,15 +14,21 @@ module.exports = {
       // }
     ],
     sidebar: {
-      '/d3indepth/': [
+      '/d3-in-depth/': [
         {
           text: 'D3 in Depth',
           children: [
             {
               text: 'Axes',
-              link: '/d3indepth/axes/'
+              link: '/d3-in-depth/axes/'
             }
           ]
+        }
+      ],
+      '/echarts-like/': [
+        {
+          text: 'ECharts',
+          children: [{ text: 'Line Chart', link: `/${echartsLike}/line-chart` }]
         }
       ]
     }

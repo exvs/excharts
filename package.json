@@ -5,7 +5,7 @@
     "dev": "vite --https --port 7777 --host",
     "build": "tsc --noEmit && vite build",
     "serve": "vite preview",
-    "docs:dev": "vitepress dev docs --https --port 8888 --host",
+    "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs"
   },
